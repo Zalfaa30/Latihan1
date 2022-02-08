@@ -4,18 +4,52 @@
     <title>RESUME ZALFAA PUTRI AYUDHIA</title>
     <link rel="icon" type="image/x-icon" href="PicsArt_12-11-12.50.34.jpg" />
   </head>
+
+  <style>
+    body {
+      background-image: url("bg.png");
+    }
+    .title {
+      color: black;
+      text-align: center;
+      font-size: xx-large;
+    }
+    #idContent {
+      font-size: 14 px;
+      color: black;
+      text-align: center;
+    }
+    #idParagraph {
+      font-size: 12 px;
+      color: black;
+      text-align: center;
+    }
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+
   <body>
     <!-- BIO SECTION -->
     <section>
-      <img src="PicsArt_12-11-12.50.34.jpg" width="200" />
-      <h1>ZALFAA PUTRI AYUDHIA</h1>
-      <h2>Base Information</h2>
-      <p>
+      <h1 class="title">ZALFAA PUTRI AYUDHIA</h1>
+      <img
+        src="PicsArt_12-11-12.50.34.jpg"
+        style="
+          width: 200px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      />
+      <h2 id="idContent">Base Information</h2>
+      <p id="idParagraph">
         Saya, Zalfaa Putri Ayudhia, berumur 19 tahun, adalah seorang mahasiswi
         yang sedang menempuh Program Studi S1 Informatika Fakultas Informatika
         angkatan 2020 di PTS Telkom University. Berikut informasi mengenai saya:
       </p>
-      <ul>
+      <ul id="idParagraph">
         <li>Nama Lengkap : Zalfaa Putri Ayudhia</li>
         <li>TTL : Bekasi, 30 Maret 2002</li>
         <li>Jenis Kelamin : Perempuan</li>
@@ -27,24 +61,22 @@
 
     <!-- CONTACT SECTION -->
     <section>
-      <h2>Contact Details</h2>
-      <ul>
+      <h2 id="idContent">Contact Details</h2>
+      <ul id="idParagraph">
         <li>
           Address: Komplek Lembah Cimenteng, Jl. Biji Menteng No.9, Cipageran,
           Cimahi Utara, Kota Cimahi
         </li>
         <li>Email address: zalfaaputri.ayudhia@gmail.com</li>
         <li>Mobile No.: 08xxxxxxxxxx</li>
-        <li>
-          IG : <a href="https://www.instagram.com/zalf.aa/"> zalf.aa </a>>
-        </li>
+        <li>IG : <a href="https://www.instagram.com/zalf.aa/"> zalf.aa </a></li>
       </ul>
     </section>
 
     <!-- EDUCATION SECTION -->
     <section>
-      <h2>Education History</h2>
-      <ul>
+      <h2 id="idContent">Education History</h2>
+      <ul id="idParagraph">
         <li>
           Menempuh Sekolah Menengah Pertama di SMP Negeri 1 Slawi selama tiga
           tahun >> 2014 - 2017
@@ -66,9 +98,9 @@
 
     <!-- EXPERIENCE SECTION -->
     <section>
-      <h2>Experience</h2>
-      <h4>In Technology:</h4>
-      <ul>
+      <h2 id="idContent">Experience</h2>
+      <h4 id="idParagraph">In Technology:</h4>
+      <ul id="idParagraph">
         <li>
           Menyelesaikan Tugas Besar Mata Kuliah Pengenalan Pemrograman membuat
           Simple Python GUI (Graphical User Interface) berupa "Planner".
@@ -88,8 +120,8 @@
           Telkom University 2021 dengan tim.
         </li>
       </ul>
-      <h4>In Organization / Laboratory:</h4>
-      <ul>
+      <h4 id="idParagraph">In Organization / Laboratory:</h4>
+      <ul id="idParagraph">
         <li>
           Menjadi anggota kepanitiaan PMB & Permibtivity 2021 sebagai Bendahara
           Divisi Acara.
@@ -106,9 +138,9 @@
 
     <!-- SKILL SECTION -->
     <section>
-      <h2>Skills</h2>
-      <h4>Technology:</h4>
-      <ul>
+      <h2 id="idContent">Skills</h2>
+      <h4 id="idParagraph">Technology:</h4>
+      <ul id="idParagraph">
         <li>
           Kemampuan untuk mengoperasikan Microsoft Word, Excel, dan Powerpoint
           dengan baik.
@@ -119,8 +151,8 @@
         </li>
         <li>Kemampuan untuk mengoperasikan DBMS MySQL dengan cukup baik.</li>
       </ul>
-      <h4>Language:</h4>
-      <ul>
+      <h4 id="idParagraph">Language:</h4>
+      <ul id="idParagraph">
         <li>
           Kemampuan untuk berbicara dengan Bahasa Indonesia dengan sangat baik.
         </li>
@@ -128,8 +160,8 @@
           Kemampuan untuk berbicara dengan Bahasa Inggris dengan cukup baik.
         </li>
       </ul>
-      <h4>Interpersonal:</h4>
-      <ul>
+      <h4 id="idParagraph">Interpersonal:</h4>
+      <ul id="idParagraph">
         <li>
           Kemampuan berkomunikasi antarsesama yang baik dan selalu terjaga.
         </li>
@@ -142,12 +174,12 @@
 
     <!-- INTEREST SECTION -->
     <section>
-      <h2>Interests</h2>
-      <p>
+      <h2 id="idContent">Interests</h2>
+      <p id="idParagraph">
         Sesuai dengan perkuliahan saya di imformatika, saya memiliki
         ketertarikan di bidang IT. Berikut base interest yang saya miliki:
       </p>
-      <ol>
+      <ol id="idParagraph">
         <li>Menulis</li>
         <li>Menggambar</li>
         <li>Program Komputer</li>
@@ -157,48 +189,52 @@
 
     <!-- OC EXPERIENCE SECTION -->
     <section>
-      <h1>O/C Experience Resume</h1>
-      <table>
+      <h2 id="idContent">O/C Experience Resume</h2>
+      <table class="center">
         <tr>
-          <th>
+          <th style="border-style: solid">
             Organisasi / <br />
             kepanitiaan
           </th>
-          <th>Jabatan</th>
-          <th>Tahun Keanggotaan</th>
+          <th style="border-style: solid">Jabatan</th>
+          <th style="border-style: solid">Tahun Keanggotaan</th>
         </tr>
         <tr>
-          <td>Pramuka Sangga Inti SMA Negeri 1 Slawi</td>
-          <td>Anggota</td>
-          <td>2017-2018</td>
+          <td style="border-style: double">
+            Pramuka Sangga Inti SMA Negeri 1 Slawi
+          </td>
+          <td style="border-style: double">Anggota</td>
+          <td style="border-style: double">2017-2018</td>
         </tr>
         <tr>
-          <td>Kepanitiaan GSAM 10</td>
-          <td>Sie. PPPK</td>
-          <td>2018</td>
+          <td style="border-style: double">Kepanitiaan GSAM 10</td>
+          <td style="border-style: double">Sie. PPPK</td>
+          <td style="border-style: double">2018</td>
         </tr>
         <tr>
-          <td>Pramuka Inti SMAN 1 Cimahi</td>
-          <td>Anggota</td>
-          <td>2018-2019</td>
+          <td style="border-style: double">Pramuka Inti SMAN 1 Cimahi</td>
+          <td style="border-style: double">Anggota</td>
+          <td style="border-style: double">2018-2019</td>
         </tr>
         <tr>
-          <td>Kepanitiaan PMB & Permibtivity 2021</td>
-          <td>Bendahara Divisi Acara</td>
-          <td>2021</td>
+          <td style="border-style: double">
+            Kepanitiaan PMB & Permibtivity 2021
+          </td>
+          <td style="border-style: double">Bendahara Divisi Acara</td>
+          <td style="border-style: double">2021</td>
         </tr>
         <tr>
-          <td>Kepanitiaan PERFECT 2022</td>
-          <td>Sekretaris Divisi Acara</td>
-          <td>2022</td>
+          <td style="border-style: double">Kepanitiaan PERFECT 2022</td>
+          <td style="border-style: double">Sekretaris Divisi Acara</td>
+          <td style="border-style: double">2022</td>
         </tr>
       </table>
     </section>
 
     <!-- LINKEDIN SECTION -->
     <section>
-      <h1>My LinkedIn Profile</h1>
-      <p>
+      <h2 id="idContent">My LinkedIn Profile</h2>
+      <p id="idParagraph">
         Link :
         <a href="https://www.linkedin.com/in/zalfaa-putri-ayudhia-a7146320a/">
           klik di sini</a
